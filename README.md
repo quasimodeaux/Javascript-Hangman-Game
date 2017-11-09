@@ -1,1 +1,1 @@
-# Javascript-Hangman-Game
+# Hangman-Game

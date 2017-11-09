@@ -2,9 +2,75 @@
 <html>
 <head>
 	<title></title>
-  <script src="assets/javascript/game.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
+ <div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Hip-Hop Hangman Game</h1>
+            <small>think of a few current hiphop artists then press any letter to begin</small>
+        </div>
 
+ </div>
+
+<div class="row">
+    <div class="col-md-4">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Word to Guess</strong></h3>
+            </div>
+            <div class="panel-body">
+                <h3 id ="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
+            </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel-body">
+
+            <strong>Guesses Left:</strong> <span id="guesses-left">9</span>
+        </div>
+        <div class="panel-body">
+            <strong>Wrong Guesses: </strong><span id="wrong-guesses"></span>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default" style="margin-top:10px;">
+            <div class="panel-body">
+
+                <strong>Wins:</strong> <span id="win-counter">0</span>
+            </div>
+
+            <div class="panel-body">
+
+                <strong>Losses:</strong> <span id="loss-counter">0</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="assets/javascript/game.js"></script>
 </body>
 </html>
