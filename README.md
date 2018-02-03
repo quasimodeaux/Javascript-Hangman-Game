@@ -3,4 +3,4 @@
 Front-end application utilizing jQuery + JS
 
 
-![](/images/first.png)
+![](assets/images/first.png)
